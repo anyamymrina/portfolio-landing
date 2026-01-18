@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
@@ -18,6 +18,7 @@
   </head>
   <body>
     <header class="topbar" id="top">
+      <h2 class="topbar__title">ГРАФИЧЕСКИЙ ДИЗАЙНЕР</h2>
       <nav class="topnav" aria-label="Верхнее меню">
         <a href="#about">ОБО МНЕ</a>
         <a href="#projects">ПРОЕКТЫ</a>
@@ -34,8 +35,8 @@
           <div class="start-words" aria-label="Разделы">
             <a class="start-word w1" href="#branding">АЙДЕНТИКА И БРЕНДИНГ</a>
             <a class="start-word w2" href="#systems">СИСТЕМЫ НАВИГАЦИИ</a>
-            <a class="start-word w3" href="#">РАЗРАБОТКА МЕРЧА</a>
-            <a class="start-word w4" href="#motion">МОУШН-ДИЗАЙН</a>
+            <a class="start-word w3" href="#merch">сувенирная продукция </a>
+            <a class="start-word w4" href="#">МОУШН-ДИЗАЙН</a>
             <a class="start-word w5" href="#fonts">ШРИФТЫ</a>
             <a class="start-word w6" href="#posters">ПЛАКАТЫ</a>
           </div>
@@ -256,22 +257,6 @@
               <img src="assets/zagogulka2.png" alt="zagogulka2" />
             </div>
 
-            <!-- SYSTEMS AND NAVIGATIONS -->
-            <header class="block-title block-title__systems">
-              <h1 class="title-main">системы навигации</h1>
-            </header>
-            <article class="section-block systems" id="systems">
-              <div class="systems__first">
-                <img src="assets/navigation/fontspiner.png" alt="ШРИФТОВОРОТ" />
-              </div>
-              <div class="systems__second">
-                <img
-                  src="assets/navigation/skazka.png"
-                  alt="Пиктограммы для парка атракционов «Сказка»"
-                />
-              </div>
-            </article>
-
             <!-- FONTS -->
             <header class="block-title block-title__fonts">
               <h1 class="title-main">шрифты</h1>
@@ -322,56 +307,6 @@
                   </div>
                 </div>
               </div>
-            </article>
-
-            <!-- MOTION -->
-            <header class="block-title block-title__motion">
-              <h1 class="title-main">моушн</h1>
-            </header>
-            <article class="section-block motion" id="motion">
-              <div class="motion__first flip-box">
-                <div class="flip-box__front">
-                  <img src="assets/motion/apocrypha.png" alt="Апокриф Бесконечных Глав" />
-                </div>
-                <div class="flip-box__back apocrypha">
-                  <img class="apocrypha__door" src="assets/motion/door.png" alt="apocrypha_door" />
-                  <div class="apocrypha__container">
-                    <div class="description-block">
-                      <div class="description-block__title">
-                        <img src="assets/description_background.png" alt="description_background" />
-                        <span>о чем игра?</span>
-                      </div>
-                      <div class="description-block__text">
-                        В отель приезжают 7 главных злодеев литературы. Пользователь играет за
-                        работника отеля, который должен узнать простое это&nbsp;совпадение или они
-                        что‑тозамышляют, но&nbsp;для&nbsp;этого придётся узнать тайны прошлого
-                        каждого из них
-                      </div>
-                    </div>
-
-                    <div class="description-block">
-                      <div class="description-block__title">
-                        <img src="assets/description_background.png" alt="description_background" />
-                        <span>геймплей</span>
-                      </div>
-                      <div class="description-block__text">
-                        Исследование и стелс:<br />— Красть артефакты из комнат, избегая внимания
-                        злодеев. Каждый злодей обладает уникальными «способностями»
-                        <br />
-                        <br />
-                        Диалоги и манипуляции:<br />— Подкупать, обманывать или&nbsp;договариваться
-                        с злодеями, чтобы&nbsp;получить доступ к их комнатам
-                        <br />
-                        <br />
-                        Система репутации:<br />— Если злодеи заподозрят игрока, их&nbsp;поведение
-                        станет агрессивным, а&nbsp;доступ к артефактам — сложнее.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="motion__second"></div>
             </article>
 
             <!-- POSTERS -->
@@ -484,6 +419,51 @@
                     ></div>
                   </div>
                 </div>
+              </div>
+            </article>
+
+            <!-- MERCH -->
+            <header class="block-title block-title__merch">
+              <h1 class="title-main">сувенирная продукция</h1>
+            </header>
+            <article class="section-block merch" id="merch">
+              <div class="merch__first flip-box">
+                <div class="flip-box__front">
+                  <img src="assets/merch/impressionism.png" alt="Импрессионизм с Русской Душой" />
+                </div>
+                <div class="flip-box__back impressionism">
+                  <img
+                    class="impressionism__posters_vertical"
+                    src="assets/merch/posters_vertical.png"
+                    alt="posters_vertical"
+                  />
+                  <div class="impressionism__container">
+                    <img
+                      class="impressionism__posters_horizontal"
+                      src="assets/merch/posters_horizontal.png"
+                      alt="posters_horizontal"
+                    />
+                    <div class="vertical-sticky">
+                      <div class="vertical text-main">примеры оформления выставки</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- SYSTEMS AND NAVIGATIONS -->
+            <header class="block-title block-title__systems">
+              <h1 class="title-main">системы навигации</h1>
+            </header>
+            <article class="section-block systems" id="systems">
+              <div class="systems__first">
+                <img src="assets/navigation/fontspiner.png" alt="ШРИФТОВОРОТ" />
+              </div>
+              <div class="systems__second">
+                <img
+                  src="assets/navigation/skazka.png"
+                  alt="Пиктограммы для парка атракционов «Сказка»"
+                />
               </div>
             </article>
           </section>
